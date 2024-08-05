@@ -1,0 +1,50 @@
+.Background {
+    background-image: url('./1.jpg');
+    background-size: cover;
+    min-height: 100vh;
+    position: relative;
+    opacity: 1;
+  }
+
+  .button-container {
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .button-container button {
+    margin: 0 10px;
+    font-size: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    border-color: #007bff;
+    color: #ffffff;
+  }
+  
+  .button-container button:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+  }
+  
+  .content-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+  }
+  
+  .fitness-tracker h1 {
+    color: hwb(0 100% 0%);
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    margin-bottom: 105px;
+    opacity: 1;
+  }
+  
+  .button-container {
+    margin-top: 20px;
+  }
+  
